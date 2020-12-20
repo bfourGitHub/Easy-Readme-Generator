@@ -11,10 +11,48 @@ const questions = [
         type: "input"
     },
     {
-        message: "What is the description of the Project",
-        name: "description",
+        message: "Give a description of this project and it's purpose.",
+        name: "Description",
         type: "input"
     },
+    {
+        message: "Please provide any special installation instructions.",
+        name: "Installation Instructions",
+        type: "input"
+    },
+    {
+        message: "Please provide any guidelines for usage.",
+        name: "Usage",
+        type: "input"
+    },
+    {
+        message: "Please provide guidelines for contributions to this project.",
+        name: "Contributing",
+        type: "input"
+    },
+    {
+        message: "Provide instructions for testing.",
+        name: "Tests",
+        type: "input"
+    },
+    {
+        message: "Please select your license.",
+        name: "License",
+        type: "list",
+        choices: "" // How to list choices for licenses and get them to display as specified
+    },
+    {
+        message: "What is your GitHub username?", //how to get this to a questions section and include a link to github
+
+        name: "Questions",
+        type: "input"
+    },
+    {
+        message: "What is your email address?", //how to get this to a questions section and give instructions for contact
+        name: "Questions",
+        type: "input"
+    },
+    
 
 ];
 
