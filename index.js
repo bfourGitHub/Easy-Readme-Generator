@@ -18,7 +18,7 @@ const questions = [
     },
     {
         message: "Please provide any special installation instructions.",
-        name: "installation-instructions",
+        name: "installationInstructions",
         type: "input"
     },
     {

@@ -2,25 +2,25 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ##Description 
+  ## Description 
   ${data.description}
 
-  ##Installation Guide
-  ${data.installation-instructions}
+  ## Installation Guide
+  ${data.installationInstructions}
 
-  ##Usage Guidelines
+  ## Usage Guidelines
   ${data.usage}
 
-  ##How to Contribute
+  ## How to Contribute
   ${data.contributing}
 
-  ##Testing
+  ## Testing
   ${data.tests}
 
-  ##License
+  ## License
   ${data.ChosenLicense}
 
-  ##Questions
+  ## Questions
   //Comment on ways to contact for more information or possible collaborations
   ${data.github}
   ${data.email}
