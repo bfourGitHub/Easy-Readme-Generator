@@ -18,7 +18,10 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License
-  ${data.ChosenLicense}
+  ${data.License}
+
+  //Insert function HERE to loop thru the liscense options and based on the chosenLicense display corresponding license information.
+
 
   ## Questions
   //Comment on ways to contact for more information or possible collaborations
