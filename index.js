@@ -38,7 +38,7 @@ const questions = [
     },
     {
         message: "Please select your license.",
-        name: "License",
+        name: "license",
         type: "list",
         choices: ["MIT", "CDDL-1.0", "Apache-2.0", "None"] // How to list choices for licenses and get them to display as specified
     //Pick a handful of licsenses and "choices" will be an array to chose from 
