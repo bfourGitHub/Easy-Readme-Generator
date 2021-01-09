@@ -188,28 +188,26 @@ This project/application is not covered by any license.`
 
 function generateMarkdown(data) {
   
-  // if ( "${data.license}" == "MIT"){
-  //   licenseBadge 
-  // }
+  
   switch(data.license) {
     case "MIT":
-      // code block
+      
       badge = "https://img.shields.io/badge/License-MIT-yellow.svg"
       chosenLicense = mitLicense
       break;
     case "MPL-2.0":
-      // code block
+      
       badge = "https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg"
       chosenLicense = mozillaLicense
       break;
     case "Apache-2.0":
-      // code block
+      
       badge = "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
       chosenLicense = apacheLicense
       break;
 
     case "None":
-      badge = "No badge required! Delete this line of code."
+      badge = "No badge required! DELETE THIS LINE OF TEXT."
       chosenLicense = noneLicense  
       break;
       
@@ -224,12 +222,12 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  *[Installation](#installationInstructions)
-  *[Usage](#usage)
-  *[Contributing](#contributing)
-  *[Testing](#tests)
-  *[License](#license)
-  *[Questions](#questions)
+  * [Installation](#installationInstructions)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Testing](#tests)
+  * [Questions](#questions)
+  * [License](#license)
 
   ## Installation Guide
   ${data.installationInstructions}
@@ -243,15 +241,16 @@ function generateMarkdown(data) {
   ## Testing
   ${data.tests}
 
+  ## Questions
+  
+  Questions or concerns? Feel free to reach out on [GitHub](https://github.com/${data.github}) or via email at <${data.email}>
+  
   ## License
-  Below is the text associated with the license you have chosen. Some licenses require you to input information. Check to make sure the required information is provided, then be sure to delete this comment.
+  * (Below is the text associated with the license you have chosen. Some licenses require you to input information. Check to make sure the required information is provided, then be sure to DELETE this comment.)
 
   ${chosenLicense}
   
 
-  ## Questions
-  
-  Questions or concerns? Feel free to reach out on [GitHub](https://github.com/${data.github}) or via email at <${data.email}>
 
 `;
 }

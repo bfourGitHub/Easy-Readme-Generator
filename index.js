@@ -40,17 +40,16 @@ const questions = [
         message: "Please select your license.",
         name: "license",
         type: "list",
-        choices: ["MIT", "MPL-2.0", "Apache-2.0", "None"] // How to list choices for licenses and get them to display as specified
+        choices: ["MIT", "MPL-2.0", "Apache-2.0", "None"] 
     //Pick a handful of licsenses and "choices" will be an array to chose from 
     },
     {
-        message: "What is your GitHub username?", //how to get this to a questions section and include a link to github
-
+        message: "What is your GitHub username?",
         name: "github",
         type: "input"
     },
     {
-        message: "What is your email address?", //how to get this to a questions section and give instructions for contact
+        message: "What is your email address?", 
         name: "email",
         type: "input"
     },
