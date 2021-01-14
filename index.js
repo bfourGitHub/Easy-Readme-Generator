@@ -4,7 +4,7 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
-// array of questions for user
+
 const questions = [
     {
         message: "What is the title of the project?",
@@ -41,7 +41,6 @@ const questions = [
         name: "license",
         type: "list",
         choices: ["MIT", "MPL-2.0", "Apache-2.0", "None"] 
-    //Pick a handful of licsenses and "choices" will be an array to chose from 
     },
     {
         message: "What is your GitHub username?",
@@ -73,17 +72,27 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
 
-    inquirer.prompt(questions)
-        .then(response => {
-            //console.log(response);
+    lineBreak();
+    console.log("Welcome to your README.md Generator!");
+    console.log("Respond to the following prompts. A README.md will then be generated based on your responses.");
+    lineBreak();
 
-            //response.title;
+    inquirer.prompt(questions)
+        .then(response => {            
 
             writeToFile("GEN_README.md", response);
 
-        })
+            lineBreak();
+            
+            console.log("Success! Your readme.md file (GEN_README.md) has been generated.");
+
+        });    
 
 }
+
+function lineBreak() {
+    console.log(`=======================================================`);
+};
 
 // function call to initialize program
 init();

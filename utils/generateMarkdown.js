@@ -1,6 +1,6 @@
 // function to generate markdown for README
 
-var mitLicense = `
+const mitLicense = `
 Begin license text.
 Copyright <YEAR> <COPYRIGHT HOLDER>
 
@@ -10,9 +10,9 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-End license text.`
+End license text.`;
 
-var mozillaLicense = `
+const mozillaLicense = `
 Mozilla Public License 2.0 (MPL-2.0)
 
 1. Definitions
@@ -163,9 +163,9 @@ If it is not possible or desirable to put the notice in a particular file, then 
 You may add additional accurate notices of copyright ownership.
 
 Exhibit B - “Incompatible With Secondary Licenses” Notice
-This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.`
+This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.`;
 
-var apacheLicense = `
+const apacheLicense = `
 To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
 
    Copyright [yyyy] [name of copyright owner]
@@ -180,11 +180,11 @@ To apply the Apache License to your work, attach the following boilerplate notic
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
-   limitations under the License.`
+   limitations under the License.`;
 
 
 var noneLicense = `
-This project/application is not covered by any license.`   
+This project/application is not covered by any license.`; 
 
 function generateMarkdown(data) {
   
@@ -192,7 +192,7 @@ function generateMarkdown(data) {
   switch(data.license) {
     case "MIT":
       
-      badge = "https://img.shields.io/badge/License-MIT-yellow.svg"
+      badge = "https://img.shields.io/badge/License-MIT-yellow.svg",
       chosenLicense = mitLicense
       break;
     case "MPL-2.0":
@@ -211,7 +211,7 @@ function generateMarkdown(data) {
       chosenLicense = noneLicense  
       break;
       
-  }
+  };
   
   
   return `# ${data.title}
