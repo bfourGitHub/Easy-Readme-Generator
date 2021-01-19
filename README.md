@@ -12,10 +12,10 @@
   * [License](#license)
 
 ## Installation Guide
-There are no special installation instructions for this command-line application. However, this application does require that all necessary dependencies are installed.
+    There are no special installation instructions for this command-line application. However, this application does require that all necessary dependencies are installed.
 
 ## Usage Guidelines
-This is a command-line application. To use this Readme generator open your integrated terminal and use `<node index.js>` to initalize the application. You will then be prompted with several questions, your responses will then be used to generate a markdown file that can be submitted with your project.
+    This is a command-line application. To use this Readme generator open your integrated terminal and use `<node index.js>` to initalize the application. You will then be prompted with several questions, your responses will then be used to generate a markdown file that can be submitted with your project.
 
 ## User Story
 
@@ -46,7 +46,7 @@ THEN I am taken to the corresponding section of the README
 ```
 ## Questions
   
-Questions or concerns? Feel free to reach out on [GitHub](https://github.com/bfourGitHub) or via email at <bfourbryan@gmail.com>
+    Questions or concerns? Feel free to reach out on [GitHub](https://github.com/bfourGitHub) or via email at <bfourbryan@gmail.com>
 
 ## License
 

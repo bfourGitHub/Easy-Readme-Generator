@@ -222,10 +222,10 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  * [Installation](#installationInstructions)
-  * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Testing](#tests)
+  * [Installation](#installation-guide)
+  * [Usage](#usage-guidelines)
+  * [Contributing](#how-to-contribute)
+  * [Testing](#testing)
   * [Questions](#questions)
   * [License](#license)
 
