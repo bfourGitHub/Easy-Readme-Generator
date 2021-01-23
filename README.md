@@ -1,7 +1,7 @@
 # Easy-Readme-Generator
     09- Homework Assignment 9 for UW Coding Bootcamp
 ## Description 
-    This homework assignment is a command line application that generates a README.md file for the user.
+    This homework assignment is a command line application that generates a README.md file based on user inputs.
 
 ## Table of Contents
   * [Installation](#installation-guide)
@@ -15,7 +15,9 @@
     There are no special installation instructions for this command-line application. However, this application does require that all necessary dependencies are installed.
 
 ## Usage Guidelines
-    This is a command-line application. To use this Readme generator open your integrated terminal and use `<node index.js>` to initalize the application. You will then be prompted with several questions, your responses will then be used to generate a markdown file that can be submitted with your project.
+    This is a command-line application. To use this Readme generator open your integrated terminal and use `<node index.js>` to initalize the application. You will then be prompted with several questions, your responses will then be used to generate a markdown file that can be submitted with your project. For a video walkthrough checkout the demo video below!
+
+Readme Generator [DEMO](https://drive.google.com/file/d/16qAJpNFzbcKM1Eqp3KgdckWgYkQfAdss/view)
 
 ## User Story
 
