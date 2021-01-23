@@ -54,7 +54,6 @@ THEN I am taken to the corresponding section of the README
 
 ## Deployment
 
-[Deployed Website](https://bfourgithub.github.io/Easy-Readme-Generator/)
 [Github Repository](https://github.com/bfourGitHub/Easy-Readme-Generator)
 
 ## License
